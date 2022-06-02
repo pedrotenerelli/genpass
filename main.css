@@ -1,0 +1,57 @@
+* {
+  padding: 0;
+  margin: 0;
+  box-sizing: border-box;  
+}
+
+body{
+    
+    font-family:Verdana, Geneva, Tahoma, sans-serif;
+    background-color: #E6E8EF;
+
+}
+
+#senhaCopiada{
+    padding: 0px;
+    margin: 0px;
+    margin-bottom: 8px;
+    font-size: 11px;
+    color: #ff0d00;
+}
+
+.container{
+    width: 100vw;
+    height: 100vh;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+}
+
+.logo-text{
+    color: #F7453B;
+    margin-bottom: 10px;
+}
+
+
+.input-text-gen input{
+    border: none;
+    outline: none;
+    padding: 5px 8px;
+    margin-bottom: 10px;
+    border-radius: 5px;
+    -webkit-box-shadow: 1px 1px 15px 1px rgba(247,69,59,0.25); 
+    box-shadow: 1px 1px 15px 1px rgba(247,69,59,0.25);
+
+}
+
+button{
+    border: none;
+    outline: none;
+    background-color: #F63228;
+    padding: 5px 15px;
+    color: #F3F4F7;
+    cursor: pointer;
+    border-radius: 10px;
+    
+}
